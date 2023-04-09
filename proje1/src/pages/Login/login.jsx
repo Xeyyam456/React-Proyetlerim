@@ -3,9 +3,22 @@ import React from 'react'
 
 const login = () => {
     return (
-        <div className='login'> 
+        <div className='container'> 
 
-            <h1>salam</h1>
+            <form className='login'>
+                <div className='username'>
+                <label>Username</label>
+                <input type="text" />
+                </div>
+                <div className='password'>
+                <label>Password</label>
+                <input type="password" />
+                </div>
+                <button>Sign In</button>
+                <p>
+                    Create a new account
+                </p>
+            </form>
 
         </div>
     )

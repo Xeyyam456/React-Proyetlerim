@@ -1,0 +1,76 @@
+.container{
+    user-select: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 17, 17);
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/26/21/32/background-2011769_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    opacity: .5;;
+    width: 350px;
+    height: 300px;
+    background-color: rgba(28, 64, 7, 0.966);
+    padding: 25px;
+    border-radius: 30px;
+    
+
+}
+
+
+.username, .password{
+    width: 94%;
+    margin-bottom: 10px;
+}
+
+.container label{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.container button{
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container button:hover{
+    background-color: rgb(5, 117, 230);
+}
+
+.container input{
+    width: 100%;
+    height: 24px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container .login p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.container .login p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
